@@ -1,0 +1,10 @@
+/home/nvidia/arm_aim/build/CMakeFiles/infantry_new.dir
+/home/nvidia/arm_aim/build/CMakeFiles/package.dir
+/home/nvidia/arm_aim/build/CMakeFiles/package_source.dir
+/home/nvidia/arm_aim/build/CMakeFiles/edit_cache.dir
+/home/nvidia/arm_aim/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/arm_aim/build/camera/CMakeFiles/Camera.dir
+/home/nvidia/arm_aim/build/camera/CMakeFiles/package.dir
+/home/nvidia/arm_aim/build/camera/CMakeFiles/package_source.dir
+/home/nvidia/arm_aim/build/camera/CMakeFiles/edit_cache.dir
+/home/nvidia/arm_aim/build/camera/CMakeFiles/rebuild_cache.dir

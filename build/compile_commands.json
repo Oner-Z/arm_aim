@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/nvidia/arm_aim/build",
+  "command": "/usr/bin/c++  -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -isystem /usr/local/include/opencv4  -g -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/infantry_new.dir/main.cpp.o -c /home/nvidia/arm_aim/main.cpp",
+  "file": "/home/nvidia/arm_aim/main.cpp"
+},
+{
+  "directory": "/home/nvidia/arm_aim/build/camera",
+  "command": "/usr/bin/c++  -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/Camera.dir/src/Camera.cpp.o -c /home/nvidia/arm_aim/camera/src/Camera.cpp",
+  "file": "/home/nvidia/arm_aim/camera/src/Camera.cpp"
+}
+]
