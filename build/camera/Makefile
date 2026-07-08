@@ -137,25 +137,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-camera/CMakeFiles/Camera.dir/rule:
-	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 camera/CMakeFiles/Camera.dir/rule
-.PHONY : camera/CMakeFiles/Camera.dir/rule
+camera/CMakeFiles/camera.dir/rule:
+	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 camera/CMakeFiles/camera.dir/rule
+.PHONY : camera/CMakeFiles/camera.dir/rule
 
 # Convenience name for target.
-Camera: camera/CMakeFiles/Camera.dir/rule
-.PHONY : Camera
+camera: camera/CMakeFiles/camera.dir/rule
+.PHONY : camera
 
 # fast build rule for target.
-Camera/fast:
-	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/Camera.dir/build.make camera/CMakeFiles/Camera.dir/build
-.PHONY : Camera/fast
+camera/fast:
+	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/camera.dir/build.make camera/CMakeFiles/camera.dir/build
+.PHONY : camera/fast
 
 src/Camera.o: src/Camera.cpp.o
 .PHONY : src/Camera.o
 
 # target to build an object file
 src/Camera.cpp.o:
-	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/Camera.dir/build.make camera/CMakeFiles/Camera.dir/src/Camera.cpp.o
+	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/camera.dir/build.make camera/CMakeFiles/camera.dir/src/Camera.cpp.o
 .PHONY : src/Camera.cpp.o
 
 src/Camera.i: src/Camera.cpp.i
@@ -163,7 +163,7 @@ src/Camera.i: src/Camera.cpp.i
 
 # target to preprocess a source file
 src/Camera.cpp.i:
-	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/Camera.dir/build.make camera/CMakeFiles/Camera.dir/src/Camera.cpp.i
+	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/camera.dir/build.make camera/CMakeFiles/camera.dir/src/Camera.cpp.i
 .PHONY : src/Camera.cpp.i
 
 src/Camera.s: src/Camera.cpp.s
@@ -171,7 +171,7 @@ src/Camera.s: src/Camera.cpp.s
 
 # target to generate assembly for a file
 src/Camera.cpp.s:
-	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/Camera.dir/build.make camera/CMakeFiles/Camera.dir/src/Camera.cpp.s
+	cd /home/nvidia/arm_aim/build && $(MAKE) $(MAKESILENT) -f camera/CMakeFiles/camera.dir/build.make camera/CMakeFiles/camera.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... Camera"
+	@echo "... camera"
 	@echo "... src/Camera.o"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"

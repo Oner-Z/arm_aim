@@ -92,7 +92,10 @@ infantry_new_EXTERNAL_OBJECTS =
 
 infantry_new: CMakeFiles/infantry_new.dir/main.cpp.o
 infantry_new: CMakeFiles/infantry_new.dir/build.make
-infantry_new: camera/libCamera.a
+infantry_new: camera/libcamera.a
+infantry_new: param/libparam.a
+infantry_new: tools/libtools.a
+infantry_new: commun/libcommun.a
 infantry_new: /usr/local/lib/libopencv_gapi.so.4.12.0
 infantry_new: /usr/local/lib/libopencv_stitching.so.4.12.0
 infantry_new: /usr/local/lib/libopencv_alphamat.so.4.12.0

@@ -45,6 +45,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nvidia/arm_aim/build/camera/cmake_install.cmake")
+  include("/home/nvidia/arm_aim/build/param/cmake_install.cmake")
+  include("/home/nvidia/arm_aim/build/tools/cmake_install.cmake")
+  include("/home/nvidia/arm_aim/build/commun/cmake_install.cmake")
 
 endif()
 

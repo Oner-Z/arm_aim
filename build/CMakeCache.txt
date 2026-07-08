@@ -417,14 +417,32 @@ CUDA_nvToolsExt_LIBRARY:FILEPATH=/usr/local/cuda/lib64/libnvToolsExt.so
 //Path to a library.
 CUDA_rt_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.a
 
-//Value Computed by CMake
-Camera_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build/camera
+//The directory containing a CMake configuration file for Ceres.
+Ceres_DIR:PATH=/usr/local/lib/cmake/Ceres
+
+//Eigen include directory
+EIGEN_INCLUDE_DIR:STRING=/usr/include/eigen3
 
 //Value Computed by CMake
-Camera_IS_TOP_LEVEL:STATIC=OFF
+camera_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build/camera
 
 //Value Computed by CMake
-Camera_SOURCE_DIR:STATIC=/home/nvidia/arm_aim/camera
+camera_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+camera_SOURCE_DIR:STATIC=/home/nvidia/arm_aim/camera
+
+//Value Computed by CMake
+commun_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build/commun
+
+//Value Computed by CMake
+commun_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+commun_SOURCE_DIR:STATIC=/home/nvidia/arm_aim/commun
+
+//The directory containing a CMake configuration file for gflags.
+gflags_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/gflags
 
 //Value Computed by CMake
 infantry_new_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build
@@ -434,6 +452,24 @@ infantry_new_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 infantry_new_SOURCE_DIR:STATIC=/home/nvidia/arm_aim
+
+//Value Computed by CMake
+param_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build/param
+
+//Value Computed by CMake
+param_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+param_SOURCE_DIR:STATIC=/home/nvidia/arm_aim/param
+
+//Value Computed by CMake
+tools_BINARY_DIR:STATIC=/home/nvidia/arm_aim/build/tools
+
+//Value Computed by CMake
+tools_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+tools_SOURCE_DIR:STATIC=/home/nvidia/arm_aim/tools
 
 
 ########################
@@ -544,7 +580,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -716,8 +752,12 @@ CUDA_nvToolsExt_LIBRARY-ADVANCED:INTERNAL=1
 CUDA_parse_cubin:INTERNAL=/usr/share/cmake-3.22/Modules/FindCUDA/parse_cubin.cmake
 //Location of run_nvcc.cmake
 CUDA_run_nvcc:INTERNAL=/usr/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+//ADVANCED property for variable: EIGEN_INCLUDE_DIR
+EIGEN_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding CUDA
 FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda][/usr/local/cuda/bin/nvcc][/usr/local/cuda/include][/usr/local/cuda/lib64/libcudart_static.a][v12.6(12.6)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: gflags_DIR
+gflags_DIR-ADVANCED:INTERNAL=1
 

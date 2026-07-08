@@ -1,0 +1,55 @@
+%YAML:1.0
+---
+
+#=====================================Detection=====================================#
+circularityThreshold: 35 # 圆度阈值
+medianBlurSize: 3        # 中值滤波核大小
+medianBlurSize_1: 5
+
+debug: 0     # debug模式
+dilationSize: 7      # 膨胀核大小
+dilationSize_1: 5
+erosionSize: 7       # 腐蚀核大小
+erosionSize_1: 5
+windmill_blue_exp_time: 800.0
+windmill_red_exp_time: 1200.0
+thresholdValue: 125  # 二值化阈值
+thresholdValueBlue: 190  # 二值化阈值
+thresholdValue_for_roi: 140
+thresholdValue_1: 82
+thresholdValueBlue_1: 160
+
+rect_area_threshold: 385 #面积阈值
+circle_area_threshold: 100 # 类圆轮廓面积阈值
+
+length_width_ratio_threshold: 2.5 # 长宽比阈值
+
+minContourArea: 100 # 最小轮廓面积
+target_circle_area_min: 2500
+target_circle_area_max: 10000
+R_area_min: 100
+R_area_max: 1000
+
+#=====================================Identify=====================================#
+list_size: 120
+
+d_Radius: 0.7
+d_P1P3: 0.254
+d_RP2: 0.825
+
+gap: 0
+gap_control: 1
+
+tx_cam2cloud: 0.08        # 调整摄像头到云台的平移参数，偏左则往大调
+tx_cam2cloud_1: -0.254
+# 0
+# ty_cam2cloud: -1.42
+ty_cam2cloud: -0.30           # 调整摄像头到云台的平移参数，偏高则往大调
+ty_cam2cloud_1: -0.38
+# -1.5
+# I0514 23:24:51.224388 234896 MessageManager.cpp:225] 当前crc: 0
+tz_cam2cloud: -0.4208
+tz_cam2cloud_1: -0.4208   # 远距离也使用相同值
+# -0.2
+
+delta_t: 0.097        #偏慢则往大调

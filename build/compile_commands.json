@@ -1,12 +1,32 @@
 [
 {
   "directory": "/home/nvidia/arm_aim/build",
-  "command": "/usr/bin/c++  -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -isystem /usr/local/include/opencv4  -g -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/infantry_new.dir/main.cpp.o -c /home/nvidia/arm_aim/main.cpp",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -isystem /usr/local/include/opencv4  -g -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/infantry_new.dir/main.cpp.o -c /home/nvidia/arm_aim/main.cpp",
   "file": "/home/nvidia/arm_aim/main.cpp"
 },
 {
   "directory": "/home/nvidia/arm_aim/build/camera",
-  "command": "/usr/bin/c++  -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/Camera.dir/src/Camera.cpp.o -c /home/nvidia/arm_aim/camera/src/Camera.cpp",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/camera.dir/src/Camera.cpp.o -c /home/nvidia/arm_aim/camera/src/Camera.cpp",
   "file": "/home/nvidia/arm_aim/camera/src/Camera.cpp"
+},
+{
+  "directory": "/home/nvidia/arm_aim/build/param",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/param.dir/src/GlobalParam.cpp.o -c /home/nvidia/arm_aim/param/src/GlobalParam.cpp",
+  "file": "/home/nvidia/arm_aim/param/src/GlobalParam.cpp"
+},
+{
+  "directory": "/home/nvidia/arm_aim/build/tools",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/tools.dir/src/UIManager.cpp.o -c /home/nvidia/arm_aim/tools/src/UIManager.cpp",
+  "file": "/home/nvidia/arm_aim/tools/src/UIManager.cpp"
+},
+{
+  "directory": "/home/nvidia/arm_aim/build/commun",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/commun.dir/src/MessageManager.cpp.o -c /home/nvidia/arm_aim/commun/src/MessageManager.cpp",
+  "file": "/home/nvidia/arm_aim/commun/src/MessageManager.cpp"
+},
+{
+  "directory": "/home/nvidia/arm_aim/build/commun",
+  "command": "/usr/bin/c++ -DTHREADANALYSIS -DVIRTUALPORT -I/usr/include/eigen3 -I/opt/MVS/include -I/home/nvidia/arm_aim/camera/include -I/home/nvidia/arm_aim/param/include -I/home/nvidia/arm_aim/tools/include -I/home/nvidia/arm_aim/commun/include -I/usr/local/include/opencv4  -g -std=c++17 -pthread -std=c++17 -pthread -std=gnu++17 -o CMakeFiles/commun.dir/src/SerialPort.cpp.o -c /home/nvidia/arm_aim/commun/src/SerialPort.cpp",
+  "file": "/home/nvidia/arm_aim/commun/src/SerialPort.cpp"
 }
 ]

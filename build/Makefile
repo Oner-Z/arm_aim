@@ -150,17 +150,56 @@ infantry_new/fast:
 .PHONY : infantry_new/fast
 
 #=============================================================================
-# Target rules for targets named Camera
+# Target rules for targets named camera
 
 # Build rule for target.
-Camera: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Camera
-.PHONY : Camera
+camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 camera
+.PHONY : camera
 
 # fast build rule for target.
-Camera/fast:
-	$(MAKE) $(MAKESILENT) -f camera/CMakeFiles/Camera.dir/build.make camera/CMakeFiles/Camera.dir/build
-.PHONY : Camera/fast
+camera/fast:
+	$(MAKE) $(MAKESILENT) -f camera/CMakeFiles/camera.dir/build.make camera/CMakeFiles/camera.dir/build
+.PHONY : camera/fast
+
+#=============================================================================
+# Target rules for targets named param
+
+# Build rule for target.
+param: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 param
+.PHONY : param
+
+# fast build rule for target.
+param/fast:
+	$(MAKE) $(MAKESILENT) -f param/CMakeFiles/param.dir/build.make param/CMakeFiles/param.dir/build
+.PHONY : param/fast
+
+#=============================================================================
+# Target rules for targets named tools
+
+# Build rule for target.
+tools: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools
+.PHONY : tools
+
+# fast build rule for target.
+tools/fast:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/tools.dir/build.make tools/CMakeFiles/tools.dir/build
+.PHONY : tools/fast
+
+#=============================================================================
+# Target rules for targets named commun
+
+# Build rule for target.
+commun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 commun
+.PHONY : commun
+
+# fast build rule for target.
+commun/fast:
+	$(MAKE) $(MAKESILENT) -f commun/CMakeFiles/commun.dir/build.make commun/CMakeFiles/commun.dir/build
+.PHONY : commun/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -196,8 +235,11 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... Camera"
+	@echo "... camera"
+	@echo "... commun"
 	@echo "... infantry_new"
+	@echo "... param"
+	@echo "... tools"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

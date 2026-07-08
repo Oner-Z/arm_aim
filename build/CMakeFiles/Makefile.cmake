@@ -12,6 +12,24 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../camera/CMakeLists.txt"
+  "../commun/CMakeLists.txt"
+  "../param/CMakeLists.txt"
+  "../tools/CMakeLists.txt"
+  "/usr/lib/aarch64-linux-gnu/cmake/gflags/gflags-config-version.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/gflags/gflags-config.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/gflags/gflags-nonamespace-targets-release.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/gflags/gflags-nonamespace-targets.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/glog/glog-config-version.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/glog/glog-config.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/glog/glog-targets-release.cmake"
+  "/usr/lib/aarch64-linux-gnu/cmake/glog/glog-targets.cmake"
+  "/usr/local/lib/cmake/Ceres/CeresConfig.cmake"
+  "/usr/local/lib/cmake/Ceres/CeresConfigVersion.cmake"
+  "/usr/local/lib/cmake/Ceres/CeresTargets-release.cmake"
+  "/usr/local/lib/cmake/Ceres/CeresTargets.cmake"
+  "/usr/local/lib/cmake/Ceres/FindEigen.cmake"
+  "/usr/local/lib/cmake/Ceres/FindGflags.cmake"
+  "/usr/local/lib/cmake/Ceres/FindGlog.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
@@ -19,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
@@ -45,6 +64,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.22/Templates/CPackConfig.cmake.in"
+  "/usr/share/eigen3/cmake/Eigen3Config.cmake"
+  "/usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/usr/share/eigen3/cmake/Eigen3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -59,10 +81,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "camera/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "param/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tools/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "commun/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/infantry_new.dir/DependInfo.cmake"
-  "camera/CMakeFiles/Camera.dir/DependInfo.cmake"
+  "camera/CMakeFiles/camera.dir/DependInfo.cmake"
+  "param/CMakeFiles/param.dir/DependInfo.cmake"
+  "tools/CMakeFiles/tools.dir/DependInfo.cmake"
+  "commun/CMakeFiles/commun.dir/DependInfo.cmake"
   )

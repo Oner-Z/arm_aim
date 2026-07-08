@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommun.a CMakeFiles/commun.dir/src/MessageManager.cpp.o CMakeFiles/commun.dir/src/SerialPort.cpp.o
+/usr/bin/ranlib libcommun.a
